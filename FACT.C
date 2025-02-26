@@ -1,6 +1,4 @@
 #include <stdio.h>
-
-// Function to calculate factorial using iteration
 long long factorial(int n) {
     long long fact = 1;
     for (int i = 1; i <= n; i++) {
@@ -8,7 +6,6 @@ long long factorial(int n) {
     }
     return fact;
 }
-
 int main() {
     int num;
     printf("Enter a number: ");
@@ -18,6 +15,5 @@ int main() {
         printf("Factorial is not defined for negative numbers.\n");
     else
         printf("Factorial of %d is %lld\n", num, factorial(num));
-
     return 0;
 }
